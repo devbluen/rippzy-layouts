@@ -1,6 +1,9 @@
 # rippzy-layouts
 Todos os layouts do meu antigo projeto de RP chamado Rippzy. Todos os layouts são open-sources disponibilizados por mim então não se preocuparem com problemas futuros.
 
+# Projeto novo inspirado na Rippzy
+https://discord.gg/centralstudios
+
 # Previews
 ![image](https://github.com/user-attachments/assets/a9b1645e-31ca-40ec-b196-b1d7dc5d6f2c)
 ![image](https://github.com/user-attachments/assets/d6f3888a-bb0c-4121-bdbe-8df5bc7cdd36)
