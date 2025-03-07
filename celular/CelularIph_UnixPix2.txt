@@ -1,0 +1,102 @@
+//Player TextDraws: 
+
+
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][8];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 269.933288, 136.429626, "box");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.000000, 21.062334);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 375.679931, 0.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][0], 572797439);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 282.999938, 174.288787, "Para_quem_voce_quer~n~Transferir_R$300,000?");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][1], 0.187998, 0.961184);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 1);
+
+TDEditor_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 282.999938, 193.888488, "Coloque_o_passaporte_abaixo");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][2], 0.103998, 0.596148);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][2], -134);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][2], 1);
+
+TDEditor_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 283.399963, 214.488174, ":_Passaporte");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][3], 0.246333, 1.276443);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][3], -134);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][3], 1);
+
+TDEditor_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 270.533355, 309.103302, "LD_SPAC:white");
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][4], 104.469993, 15.660000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][4], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][4], 977160959);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][4], 4);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawSetSelectable(playerid, TDEditor_PTD[playerid][4], true);
+
+TDEditor_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 322.933319, 313.355590, ">");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][5], 0.160332, 0.832592);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][5], 0.000000, 100.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][5], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][5], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][5], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][5], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][5], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][5], 1);
+
+TDEditor_PTD[playerid][6] = CreatePlayerTextDraw(playerid, 284.100006, 226.688919, "Passaporte_Invalido");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][6], 0.113666, 0.637629);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][6], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][6], -16777057);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][6], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][6], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][6], 1);
+
+TDEditor_PTD[playerid][7] = CreatePlayerTextDraw(playerid, 279.666656, 211.414825, "Passaporte_Click");
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][7], 86.000000, 23.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][7], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][7], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][7], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][7], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][7], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][7], 4);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][7], 0);
+PlayerTextDrawSetSelectable(playerid, TDEditor_PTD[playerid][7], true);
+
+
+
+
+//Total textdraws exported: 8 (0 global textdraws / 8 player textdraws) ~ 11/8/2023 ~ 10:54:19
+TDEditor V1.18 BY ADRI1

@@ -1,0 +1,125 @@
+//Player TextDraws: 
+
+
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][10];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 389.299957, 175.996322, "box");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.000000, 18.683006);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 474.619995, 0.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][0], 303174399);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 432.900024, 205.911529, "UBER");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][1], 0.271666, 1.160296);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], -2139062017);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 1);
+
+TDEditor_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 433.200012, 213.911727, "UBER");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][2], 0.271666, 1.160296);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][2], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][2], -2139062172);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][2], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][2], 1);
+
+TDEditor_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 432.900024, 197.781951, "UBER");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][3], 0.271666, 1.160296);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][3], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][3], -2139062172);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][3], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][3], 1);
+
+TDEditor_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 432.600036, 238.697174, "Escolha_uma_opcao");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][4], 0.133333, 0.699851);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][4], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][4], -2139062172);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][4], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][4], 1);
+
+TDEditor_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 402.366668, 252.451889, "box");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][5], 0.000000, 1.340332);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][5], 462.919982, 0.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][5], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][5], 437918463);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][5], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawSetSelectable(playerid, TDEditor_PTD[playerid][5], true);
+
+TDEditor_PTD[playerid][6] = CreatePlayerTextDraw(playerid, 432.333343, 254.296325, "Motorista");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][6], 0.168333, 0.795259);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][6], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][6], -2139062017);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][6], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][6], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][6], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][6], 1);
+
+TDEditor_PTD[playerid][7] = CreatePlayerTextDraw(playerid, 402.366668, 278.850982, "box");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][7], 0.000000, 1.340332);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][7], 462.919982, 0.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][7], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][7], 437918463);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][7], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][7], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawSetSelectable(playerid, TDEditor_PTD[playerid][7], true);
+
+TDEditor_PTD[playerid][8] = CreatePlayerTextDraw(playerid, 432.333343, 280.995330, "Cliente");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][8], 0.168333, 0.795259);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][8], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][8], -2139062017);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][8], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][8], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][8], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][8], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][8], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][8], 1);
+
+TDEditor_PTD[playerid][9] = CreatePlayerTextDraw(playerid, 431.000061, 323.896270, "Versao_1.102.41.1");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][9], 0.133333, 0.699851);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][9], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][9], -2139062172);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][9], 0);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][9], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][9], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][9], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][9], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][9], 1);
+
+
+
+
+//Total textdraws exported: 10 (0 global textdraws / 10 player textdraws) ~ 28/2/2023 ~ 0:8:49
+TDEditor V1.18 BY ADRI1

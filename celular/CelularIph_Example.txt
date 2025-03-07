@@ -1,0 +1,22 @@
+//Player TextDraws: 
+
+
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][1];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 269.933288, 136.429626, "box");
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.000000, 21.062334);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 375.679931, 0.000000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+
+
+
+
+//Total textdraws exported: 1 (0 global textdraws / 1 player textdraws) ~ 27/7/2023 ~ 4:16:12
+TDEditor V1.18 BY ADRI1

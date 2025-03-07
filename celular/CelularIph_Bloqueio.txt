@@ -1,0 +1,9 @@
+//Player TextDraws: 
+
+
+
+
+
+
+//Total textdraws exported: 17 (0 global textdraws / 17 player textdraws) ~ 27/7/2023 ~ 4:45:37
+TDEditor V1.18 BY ADRI1

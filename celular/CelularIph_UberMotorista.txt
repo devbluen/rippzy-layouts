@@ -1,0 +1,311 @@
+new PlayerText:tcelularUber_Motorista[MAX_PLAYERS][24];
+
+stock LimparModulo_UberMotorista(playerid) {
+    
+    for(new i=0; i < sizeof(tcelularUber_Motorista[]); i++) 
+        tcelularUber_Motorista[playerid][i] = PlayerText:INVALID_TEXT_DRAW;
+
+    return true;
+}
+
+func:celularUber_Motorista(playerid) {
+    
+    tcelularUber_Motorista[playerid][0] = CreatePlayerTextDraw(playerid, 389.299957, 175.996322, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][0], 0.000000, 18.683006);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][0], 474.619995, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][0], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][0], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][0], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][0], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][0], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][0], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][0], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][0], 1);
+
+    tcelularUber_Motorista[playerid][1] = CreatePlayerTextDraw(playerid, 391.000122, 178.644424, "ld_beat:chit");
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][1], 24.239997, 27.239997);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][1], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][1], 437918463);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][1], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][1], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][1], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][1], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][1], 4);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][1], 0);
+
+    tcelularUber_Motorista[playerid][2] = CreatePlayerTextDraw(playerid, 391.900054, 183.207412, "");
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][2], 22.000000, 17.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][2], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][2], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][2], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][2], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][2], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][2], 0);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][2], 5);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][2], 0);
+    PlayerTextDrawSetPreviewModel(playerid, tcelularUber_Motorista[playerid][2], 60);
+    PlayerTextDrawSetPreviewRot(playerid, tcelularUber_Motorista[playerid][2], 0.000000, 0.000000, 0.000000, 1.000000);
+
+    tcelularUber_Motorista[playerid][3] = CreatePlayerTextDraw(playerid, 413.766662, 186.637100, "Diogo_Oliveira");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][3], 0.120664, 0.600296);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][3], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][3], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][3], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][3], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][3], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][3], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][3], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][3], 1);
+
+    tcelularUber_Motorista[playerid][4] = CreatePlayerTextDraw(playerid, 414.100006, 192.437454, "]_0.0");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][4], 0.113664, 0.587849);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][4], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][4], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][4], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][4], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][4], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][4], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][4], 2);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][4], 1);
+
+    tcelularUber_Motorista[playerid][5] = CreatePlayerTextDraw(playerid, 391.233398, 236.044448, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][5], 0.000000, 11.037658);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][5], 472.439941, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][5], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][5], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][5], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][5], 404232447);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][5], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][5], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][5], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][5], 1);
+
+    tcelularUber_Motorista[playerid][6] = CreatePlayerTextDraw(playerid, 394.566711, 212.399993, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][6], 0.000000, 0.970991);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][6], 431.000000, 12.0000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][6], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][6], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][6], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][6], 8388863);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][6], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][6], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][6], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][6], 1);
+    PlayerTextDrawSetSelectable(playerid, tcelularUber_Motorista[playerid][6], true);
+
+    tcelularUber_Motorista[playerid][7] = CreatePlayerTextDraw(playerid, 412.899963, 213.414916, "ONLINE");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][7], 0.122666, 0.699851);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][7], 2);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][7], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][7], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][7], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][7], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][7], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][7], 2);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][7], 1);
+
+    tcelularUber_Motorista[playerid][8] = CreatePlayerTextDraw(playerid, 394.333312, 241.022232, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][8], 0.000000, 0.899999);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][8], 469.010131, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][8], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][8], 303174399);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][8], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][8], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][8], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][8], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][8], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][8], 1);
+    PlayerTextDrawSetSelectable(playerid, tcelularUber_Motorista[playerid][8], true);
+
+    tcelularUber_Motorista[playerid][9] = CreatePlayerTextDraw(playerid, 431.266601, 242.051879, "Coloque_o_ID_do_chamado");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][9], 0.123998, 0.633481);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][9], 0.000000, -3.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][9], 2);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][9], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][9], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][9], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][9], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][9], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][9], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][9], 1);
+
+    tcelularUber_Motorista[playerid][10] = CreatePlayerTextDraw(playerid, 388.733367, 267.921752, "ld_beat:chit");
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][10], 28.000000, 32.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][10], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][10], 303174399);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][10], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][10], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][10], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][10], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][10], 4);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][10], 0);
+
+    tcelularUber_Motorista[playerid][11] = CreatePlayerTextDraw(playerid, 389.766601, 272.463073, "");
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][11], 25.000000, 23.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][11], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][11], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][11], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][11], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][11], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][11], 0);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][11], 5);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][11], 0);
+    PlayerTextDrawSetPreviewModel(playerid, tcelularUber_Motorista[playerid][11], 60);
+    PlayerTextDrawSetPreviewRot(playerid, tcelularUber_Motorista[playerid][11], 0.000000, 0.000000, 0.000000, 1.000000);
+
+    tcelularUber_Motorista[playerid][12] = CreatePlayerTextDraw(playerid, 416.333221, 259.274200, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][12], 0.000000, 0.898665);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][12], 468.839355, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][12], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][12], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][12], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][12], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][12], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][12], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][12], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][12], 1);
+
+    tcelularUber_Motorista[playerid][13] = CreatePlayerTextDraw(playerid, 417.333282, 260.059356, "Diogo_Oliveira");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][13], 0.119999, 0.650074);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][13], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][13], -5963521);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][13], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][13], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][13], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][13], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][13], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][13], 1);
+
+    tcelularUber_Motorista[playerid][14] = CreatePlayerTextDraw(playerid, 416.333221, 272.673797, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][14], 0.000000, 0.898665);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][14], 468.839355, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][14], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][14], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][14], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][14], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][14], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][14], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][14], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][14], 1);
+
+    tcelularUber_Motorista[playerid][15] = CreatePlayerTextDraw(playerid, 417.333282, 273.558807, "Destino:_Market");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][15], 0.119999, 0.650074);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][15], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][15], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][15], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][15], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][15], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][15], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][15], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][15], 1);
+
+    tcelularUber_Motorista[playerid][16] = CreatePlayerTextDraw(playerid, 416.333221, 285.873260, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][16], 0.000000, 0.898665);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][16], 468.839355, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][16], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][16], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][16], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][16], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][16], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][16], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][16], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][16], 1);
+
+    tcelularUber_Motorista[playerid][17] = CreatePlayerTextDraw(playerid, 417.333282, 286.758270, "Distancia:_100");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][17], 0.119999, 0.650074);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][17], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][17], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][17], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][17], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][17], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][17], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][17], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][17], 1);
+
+    tcelularUber_Motorista[playerid][18] = CreatePlayerTextDraw(playerid, 416.333221, 300.272674, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][18], 0.000000, 0.898665);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][18], 468.839355, 0.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][18], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][18], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][18], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][18], 303174399);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][18], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][18], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][18], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][18], 1);
+
+    tcelularUber_Motorista[playerid][19] = CreatePlayerTextDraw(playerid, 417.333282, 301.457672, "Preco:_R$526");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][19], 0.119999, 0.650074);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][19], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][19], 444006143);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][19], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][19], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][19], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][19], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][19], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][19], 1);
+
+    tcelularUber_Motorista[playerid][20] = CreatePlayerTextDraw(playerid, 413.100067, 320.251831, "box");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][20], 0.000000, 1.033332);
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][20], 451.100036, 12.0000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][20], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][20], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][20], 1);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][20], -1523963137);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][20], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][20], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][20], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][20], 1);
+    PlayerTextDrawSetSelectable(playerid, tcelularUber_Motorista[playerid][20], true);
+
+    tcelularUber_Motorista[playerid][21] = CreatePlayerTextDraw(playerid, 431.800018, 320.622192, "Cancelar");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][21], 0.161332, 0.828444);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][21], 2);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][21], -1);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][21], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][21], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][21], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][21], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][21], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][21], 1);
+
+    tcelularUber_Motorista[playerid][22] = CreatePlayerTextDraw(playerid, 461.066741, 175.832870, "ld_beat:chit");
+    PlayerTextDrawTextSize(playerid, tcelularUber_Motorista[playerid][22], 14.000000, 16.000000);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][22], 1);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][22], 421075455);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][22], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][22], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][22], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][22], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][22], 4);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][22], 0);
+    PlayerTextDrawSetSelectable(playerid, tcelularUber_Motorista[playerid][22], true);
+
+    tcelularUber_Motorista[playerid][23] = CreatePlayerTextDraw(playerid, 467.733306, 178.270355, "<");
+    PlayerTextDrawLetterSize(playerid, tcelularUber_Motorista[playerid][23], 0.172665, 1.093924);
+    PlayerTextDrawAlignment(playerid, tcelularUber_Motorista[playerid][23], 2);
+    PlayerTextDrawColor(playerid, tcelularUber_Motorista[playerid][23], -2139062017);
+    PlayerTextDrawUseBox(playerid, tcelularUber_Motorista[playerid][23], 0);
+    PlayerTextDrawBoxColor(playerid, tcelularUber_Motorista[playerid][23], 0);
+    PlayerTextDrawSetShadow(playerid, tcelularUber_Motorista[playerid][23], 0);
+    PlayerTextDrawBackgroundColor(playerid, tcelularUber_Motorista[playerid][23], 255);
+    PlayerTextDrawFont(playerid, tcelularUber_Motorista[playerid][23], 1);
+    PlayerTextDrawSetProportional(playerid, tcelularUber_Motorista[playerid][23], 1);
+
+    for(new i=0; i < sizeof(tcelularUber_Motorista[]); i++)
+        PlayerTextDrawShow(playerid, tcelularUber_Motorista[playerid][i]);
+
+    setApp(playerid, "ocultarUber_Motorista", "celularApps1", RGB(18, 18, 18, 255));
+
+    requestUber_Motorista(playerid);
+    return true;
+}
+
+func:ocultarUber_Motorista(playerid) {
+
+    for(new i=0; i < sizeof(tcelularUber_Motorista[]); i++) {
+        PlayerTextDrawDestroy(playerid, tcelularUber_Motorista[playerid][i]);
+        tcelularUber_Motorista[playerid][i] = PlayerText:INVALID_TEXT_DRAW;
+    }
+    return true;
+}
